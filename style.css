@@ -1,0 +1,150 @@
+
+#shopOwner {
+    display: block;
+    position:relative;
+    z-index: 0;
+    width:30%;
+    margin-top: -10%;
+    left: -4%
+}
+
+header {
+    display: block;
+    position: relative;
+    left: 10%;
+    bottom: -190px
+}
+
+.shopOwnerQuote {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 70%;
+    height: 200px; 
+    top: 70%; 
+    font-family: 'Cinzel', serif; 
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cardRequest {
+    display: block;
+    position: relative;
+    z-index: 6;
+    left: 28%;
+    top: -160px;
+    color: #3A2D3B; /* Adjust text color for contrast */
+}
+
+.pokemonCard {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    position:relative;
+    z-index: 0
+}
+
+#searchBar {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px 15px;
+    font-family: 'Cinzel', serif; /* Use a fantasy font */
+    font-size: 16px;
+    color: #ffffff; /* Light text color for contrast */
+    background-color: #4B3D3A; /* Darker background */
+    border: 2px solid #8B5B29; /* Rustic brown border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    outline: none; /* Remove default outline */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+#searchBar::placeholder {
+    color: #D6CBA8; /* Placeholder text color */
+    opacity: 0.7; /* Slightly transparent */
+}
+
+#searchBar:focus {
+    background-color: #5A4C4A; /* Slightly lighter on focus */
+    border-color: #C0A15B; /* Highlight border on focus */
+}
+
+.cardInformation {
+    display: block;
+    margin: auto;
+    margin-top: -802px;
+    width: 30%;
+    height: 658px;
+    font-size: 135%;
+    position:relative;
+    z-index: 1;
+}
+
+#btn {
+    font-family: 'Uncial Antiqua', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    display: block;
+    position: relative;
+    margin-top: -130px;
+    left: 30%;
+    top: -370px;
+    font-family: 'Cinzel', serif; /* Epic font */
+    font-size: 18px; /* Maintain similar size; adjust as needed */
+    color: #0e0c0c; /* Light text color for contrast */
+}
+
+#name {
+    position: relative;
+    top: 3%;
+    left: 18%;
+    font-size: 120%;
+}
+
+#types {
+    position: relative;
+    top: -98%;
+    left: 63%;
+    background-color:rgb(135, 139, 139);
+    width: 33%;
+    height: 6.3%;
+    border-radius: 38%; 
+    text-align: center
+}
+
+#imgContainer {
+    position: relative;
+    top: 3%;
+    left: 20%;
+    width: 250px;
+}
+
+#ability {
+    position: relative;
+    top: -52%;
+    left: 8%
+}
+
+#firstMoves {
+    position: relative;
+    top: -50.5%;
+    left: 14%
+}
+
+#secondMoves {
+    position: relative;
+    top: -45.5%;
+    left: 14%
+}
+
+#pokemonTypesBG {
+    position: relative;
+    width: 84.5%;
+    height: 45%;
+    z-index: -1;
+    left: 8%;
+    top: -40.5%
+}
+
